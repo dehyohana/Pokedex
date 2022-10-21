@@ -1,64 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login</title>
 	<link rel="stylesheet" href="css/login.css">
-	<body>
-	<!-- <style>
-		div{
-			background-color:green ;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
-			padding: 80px;
-			border-radius: 15px;
-		}
-		input{
-			padding: 10px;
-			outline: none;
-			font-size: 15px;
-		}
-		button{
-			background-color: dodgerblue;
-		}
-	</style> -->	
-		
-	<div>
-		<h1>Login</h1>
-		<form action="">
+	<link rel="shortcut icon" type="imagex/png" href="https://img.icons8.com/color/48/000000/psyduck.png">
+</head>
 
-			<label for="name">Email : </label>
-			<br>
-			<input type="text" id="nome" name="nome" value=>
+<body>
 
-			<br><br>
+	<!-- indica que o que está dentro dele faz parte do cabeçalho-->
 
-			<label for="senha">Senha :</label>
-			<br>
-			<input type="password" id="senha" name="senha" value=>
+	<header class="cabeçalho">
+		<img class="cabeçalho-imagem" src="imagens/pokeball.png" onclick="window.location='index.html';">
+		<nav class="cabeçalho-menu">
+			<a class="cabeçalho-menu-item"> Pokédex </a>
+			<a class="cabeçalho-menu-item" href="https://www.pokemon.com/br/"> Comunidade pokémon</a>
+		</nav>
 
-			<br><br>
+	</header>
 
-			<!-- <input type="button" name="esqueci senha" value="Esqueceu a Senha?"> -->
-			<a href="">Esqueceu sua senha?</a>
-			<br><br>
-			<input type="checkbox" name="conectado" value="Manterconectado"> Manter conectado
-			<input type="button" name="entrar" value="Entrar">
+	<!-- é a parte princiapl da pagina-->
 
-			<br>
+	<main>
+		<div class="formulario">
+			<h1>Login</h1>
+			<form action="" class="formulario-itens">
+				<div class="campo-texto">
+					<input type="text" name="email" placeholder="Email" id="email">
+				</div>
+				<div class="campo-texto">
+					<input type="password" name="senha" placeholder="Senha" id="senha">
+				</div>
+				<a class="sem-decoracao" href="#">Esqueci minha senha</a>
+				<button type="submit" class="btn-login" onclick="loginUsuario()">Entrar</button>
+				<a class="sem-decoracao" href="/cadastro.html">Não tem uma conta? Cadastre-se</a>
+			</form>
+		</div>
+	</main>
 
-			<h3>OU</h3>
+	<!-- é o rodapé da pagina -->
 
-			<input type="button" name="conta" value="Criar Conta"><br>
-			<button>dokasdofkasdokf</button>
-		</form>
+	<footer class="rodape">
+		<img class="rodape-imagem" src="imagens/pokeball.png">
+	</footer>
 
-		
-		
-	</div>
 
 </body>
+
 </html>

@@ -5,41 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Wikipedia dos pokemons">
-    <title>Pokédex</title>
+    <title>Home</title>
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="shortcut icon" type="imagex/png" href="https://img.icons8.com/color/48/000000/psyduck.png">
 </head>
 
 <body>
-        <header class="cabeçalho"> <!-- indica que o que está dentro dele faz parte do cabeçalho-->
- <img class= "cabeçalho-imagem" src="imagens/pokeball.png" >
 
+    <!-- indica que o que está dentro dele faz parte do cabeçalho-->
+
+    <header class="cabeçalho">
+        <img class="cabeçalho-imagem" src="imagens/pokeball.png" onclick="window.location='index.html';">
         <nav class="cabeçalho-menu">
-    <a class="cabeçalho-menu-item"> Pokédex </a>
-    <a class="cabeçalho-menu-item"> Comunidade pokémon</a>
+            <a class="cabeçalho-menu-item"> Pokédex </a>
+            <a class="cabeçalho-menu-item" href="https://www.pokemon.com/br/"> Comunidade pokémon</a>
         </nav>
-    
-        </header>
+    </header>
 
-        <main class="conteudo"> <!-- é a parte princiapl da pagina-->
-            <section class="conteudo-principal">
-                <div class="conteudo-principal-escrito">
-        <h1 class="conteudo-principal-escrito-titulo"> Pokédex </h1>
-        <h2 class="conteudo-principal-escrito-subtitulo">Agenda eletrônica que registra todos os dados dos seus pokemons. </h2>
-        <a href="/login.html"><button class="conteudo-principal-escrito-botao">  Comece agora!</button></a>
-    </div>
-    <img class="conteudo-principal-imagem" src="imagens/charizard.png">
-            </section >
+    <!-- é a parte princiapl da pagina-->
 
-           <section class="conteudo-secuondario" >
-    <h3 class="conteudo-secundario-titulo"> Como ela funciona ? </h3>
-    <p class="conteudo-secundario-paragrafo"> - Aponte a agenda para o pokémon que ela <strong>automaticamente</strong> irá recolher todas as informações existentes relacionadas a ele.</p>
-            </section>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo"> Pokédex </h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Agenda eletrônica que registra todos os dados dos seus
+                    pokemons. </h2>
+                <button onclick="window.location='login.html';" class="conteudo-principal-escrito-botao"> Comece agora!</button>
+            </div>
+            <img class="conteudo-principal-imagem" src="imagens/charizard.png">
+        </section>
+        <section class="conteudo-secuondario">
+            <h3 class="conteudo-secundario-titulo"> Como ela funciona ? </h3>
+            <p class="conteudo-secundario-paragrafo"> - Aponte a agenda para o pokémon que ela
+                <strong>automaticamente</strong> irá recolher todas as informações existentes relacionadas a ele.</p>
+        </section>
+    </main>
 
-        </main>  
+    <!-- é o rodapé da pagina -->
 
-         <footer class="rodape"> <!-- é o rodapé da pagina -->
-            <img class="rodape-imagem" src="imagens/pokeball.png">
-        </footer>
+    <footer class="rodape">
+        <img class="rodape-imagem" src="imagens/pokeball.png">
+    </footer>
 
 </body>
 

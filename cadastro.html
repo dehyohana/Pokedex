@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link href="css/cadastro.css" rel="stylesheet">
+  <link rel="shortcut icon" type="imagex/png" href="https://img.icons8.com/color/48/000000/psyduck.png">
+
+</head>
+
+<body>
+
+  <!-- indica que o que está dentro dele faz parte do cabeçalho-->
+
+  <header class="cabeçalho">
+    <img class="cabeçalho-imagem" src="imagens/pokeball.png" onclick="window.location='index.html';">
+    <nav class="cabeçalho-menu">
+      <a class="cabeçalho-menu-item"> Pokédex </a>
+      <a class="cabeçalho-menu-item" href="https://www.pokemon.com/br/"> Comunidade pokémon</a>
+    </nav>
+  </header>
+
+  <!-- é a parte princiapl da pagina-->
+
+  <main>
+    <div class="formulario">
+      <h1>Cadastre-se</h1>
+      <form action="" class="formulario-itens">
+        <div class="campo-texto">
+          <input type="email" name="email" placeholder="Email" id="email">
+        </div>
+        <div class="campo-texto">
+          <input type="password" name="senha" placeholder="Senha" id="senha">
+        </div>
+        <div class="campo-texto">
+          <input type="text" name="username" placeholder="Username" id="username">
+        </div>
+        <button type="submit" class="btn-login" onclick="loginUsuario()">CADASTRAR</button>
+        <a class="sem-decoracao" href="/login.html">Já tem uma conta? Faça login</a>
+      </form>
+    </div>
+  </main>
+
+  <!-- é o rodapé da pagina -->
+
+  <footer class="rodape">
+    <img class="rodape-imagem" src="imagens/pokeball.png">
+  </footer>
+
+</body>
+
+</html>
