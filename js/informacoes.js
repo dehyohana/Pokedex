@@ -31,6 +31,7 @@ fetch(url, requestOptions)
         corDeFundoTipo = 'tipo-' + (response.tipoCard)
         cartaoPokemon.classList.add(corDeFundoTipo)
         img.setAttribute('src', (response.imagem))
+        biografia.textContent = (response.biografia)
     })
     .catch(error => console.log('error', error));
 
@@ -73,6 +74,7 @@ function buscarPokemon() {
             corDeFundoTipo = 'tipo-' + (response.tipoCard)
             cartaoPokemon.classList.add(corDeFundoTipo)
             img.setAttribute('src', (response.imagem))
+            biografia.textContent = (response.biografia)
         })
         .catch(error => console.log('error', error));
 }

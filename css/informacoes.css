@@ -45,13 +45,13 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #dadfe8;
+    background: #DCDCDC;
     flex-direction: column;
 }
 
 .search-box{
     border: 1px solid #6b727a;
-    background: #dadfe8;
+    background: #DCDCDC;
     height: 50px;
     border-radius: 200px;
     display: flex;
