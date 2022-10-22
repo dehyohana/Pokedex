@@ -67,7 +67,7 @@ input {
     border: none;
     border-radius: 15px;
     background-color: rgb(254, 254, 255);
-    color: red;
+    color: black;
     outline: none;
     padding: 10px;
     font-size: 15px;
@@ -93,7 +93,7 @@ input {
     flex-direction: column;
 }
 
-.btn-login {
+.btn-cadastro {
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -107,7 +107,7 @@ input {
     box-shadow: 0px 10px 40px -12px #4F4F4F;
 }
 
-.btn-login:hover {
+.btn-cadastro:hover {
     color: black;
     background-color: #fff2e7;
     box-shadow: none;

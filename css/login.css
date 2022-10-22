@@ -67,7 +67,7 @@ input {
     border: none;
     border-radius: 15px;
     background-color: rgb(254, 254, 255);
-    color: red;
+    color: black;
     outline: none;
     padding: 10px;
     font-size: 15px;
@@ -123,4 +123,41 @@ input {
     height: 48px;
     display: block;
     margin: 0 auto;
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        font-size: 10px;
+    }
+
+    .formulario{
+        width: 300px;
+        height: 400px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .btn-login{
+        width: 50%;
+    }
+
+    .cabeçalho {
+        padding: 15px;
+    }
+    
+    .cabeçalho-imagem {
+        height: 35px;
+    }
+    
+    .cabeçalho-menu-item {
+        font-size: 15px;
+    }
+
+    .rodape {
+        padding: 15px;
+    }
+    
+    .rodape-imagem {
+        height: 35px;
+    }
 }
