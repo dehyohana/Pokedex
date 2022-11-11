@@ -81,9 +81,6 @@ if(isset($_POST['submit'])){
         <img class="rodape-imagem" src="imagens/pokeball.png">
     </footer>
 
-    <script src="php/enviarEmailPhp.php"></script>
-
-
 </body>
 
 
