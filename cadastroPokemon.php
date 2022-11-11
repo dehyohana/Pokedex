@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
     $habilidadesPokemon = $_POST['habilidadesPokemon'];
     $tipoPokemon = $_POST['tipoPokemon'];
 
-    echo "<script>console.log('Usuário enviou a seguinte indicação de pokemon, Nome:'$nomePokemon, Id:$idPokemon, Peso:$pesoPokemon, Altura:$alturaPokemon, Habilidades:$habilidadesPokemon, Tipo:$tipoPokemon'); </script>";
+    echo "<script>console.log('Usuário enviou a seguinte indicação de pokemon, Nome:'$nomePokemon', Id:'$idPokemon', Peso:'$pesoPokemon', Altura:'$alturaPokemon', Habilidades:'$habilidadesPokemon', Tipo:'$tipoPokemon'); </script>";
 }
 
 
@@ -42,31 +42,6 @@ if(isset($_POST['submit'])){
     <!-- é a parte principal da pagina-->
 
     <main>
-        <!-- <div class="formulario" action="login.html" method="POST">
-      <h1 class="textoCadastro">Nos mande algum Pokémon que você queira ver!</h1>
-      <form action="" class="formulario-itens">
-        <div class="campo-texto nomePokemon">
-          <input type="text" name="nomePokemon" placeholder="Nome do Pokemon" id="name">
-        </div>
-        <br>
-        <div class="campo-texto nomePokemon">
-            <input type="text" name="nomePokemon" placeholder="Apelido do Pokemon" id="name">
-        </div>
-        <br>
-        <div class="labelFile">
-            Anexe aqui a Imagem do method
-        </div>
-
-        <div class="form-group anexo">
-            <input type="file" class="form-control-file">
-        </div> 
-        
-        <button type="submit" class="btn-cadastro" onclick="cadastrarPokemon()">ENVIAR</button>
-
-        
-     </form>
-    </div> -->
-
         <h1 class="textoCadastro">Nos mande algum Pokémon que você queira ver!</h1>
         <br>
         <form action="cadastroPokemon.php" class="formulario-itens" method="POST">
