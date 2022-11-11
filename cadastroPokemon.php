@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
     $habilidadesPokemon = $_POST['habilidadesPokemon'];
     $tipoPokemon = $_POST['tipoPokemon'];
 
-    echo "<script>console.log('Usuário enviou a seguinte indicação de pokemon, Nome:'$nomePokemon', Id:'$idPokemon', Peso:'$pesoPokemon', Altura:'$alturaPokemon', Habilidades:'$habilidadesPokemon', Tipo:'$tipoPokemon'); </script>";
+    echo "<script>console.log('Usuário enviou a seguinte indicação de pokemon, Nome:'$nomePokemon', Id:'$idPokemon', Peso:'$pesoPokemon', Altura:'$alturaPokemon', Habilidades:'$habilidadesPokemon', Tipo:'$tipoPokemon''); </script>";
 }
 
 
