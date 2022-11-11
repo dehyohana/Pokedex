@@ -69,7 +69,7 @@ if(isset($_POST['submit'])){
 
         <h1 class="textoCadastro">Nos mande algum Pokémon que você queira ver!</h1>
         <br>
-        <form action="./enviarEmailPhp.php" class="formulario-itens" method="POST">
+        <form action="cadastroPokemon" class="formulario-itens" method="POST">
             <div class="form-group">
                 <input type="text" class="form-control teste" name="nomePokemon" id="nomePokemon" placeholder="Nome do Pokemon">
             </div>
@@ -93,6 +93,7 @@ if(isset($_POST['submit'])){
             <div class="form-group">
                 <input type="text" class="form-control" name="tipoPokemon" id="tipoPokemon" placeholder="Tipo do Pokemon">
             </div>
+            <br>
             <!-- <button type="submit" class="btn-cadastro" name="submit">ENVIAR</button> -->
             <input type="submit" name="submit" id="submit">
         </form>
