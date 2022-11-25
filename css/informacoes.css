@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -31,16 +31,16 @@
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-main{
+main {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@ main{
     flex-direction: column;
 }
 
-.search-box{
+.search-box {
     border: 1px solid #6b727a;
     background: #DCDCDC;
     height: 50px;
@@ -60,11 +60,11 @@ main{
     margin-top: 50px;
 }
 
-.loupe-white{
+.loupe-white {
     display: none;
 }
 
-.search-btn{
+.search-btn {
     width: 50px;
     height: 50px;
     display: flex;
@@ -73,7 +73,7 @@ main{
     cursor: pointer;
 }
 
-.search-text{
+.search-text {
     background: none;
     border: 0;
     outline: 0;
@@ -83,39 +83,39 @@ main{
     transition: 0.4s;
 }
 
-.search-box:hover > .search-text {
+.search-box:hover>.search-text {
     width: 320px;
     padding-left: 20px;
 }
 
-.search-box:hover > .search-btn .loupe-blue {
+.search-box:hover>.search-btn .loupe-blue {
     display: none;
 }
 
-.search-box:hover > .search-btn .loupe-white {
+.search-box:hover>.search-btn .loupe-white {
     display: block;
 }
 
-.pokedex{
+.pokedex {
     display: flex;
     gap: 30px;
     padding: 30px 0;
 }
 
-.cartao-pokemon{
+.cartao-pokemon {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
 }
 
-.cartao-topo{
+.cartao-topo {
     padding: 30px 40px 0;
 }
 
-.nome{
+.nome {
     margin-bottom: 5px;
 }
 
-.tipo{
+.tipo {
     font-size: 12px;
     background-color: #FFFFFF;
     opacity: 0.7;
@@ -124,7 +124,7 @@ main{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.detalhes{
+.detalhes {
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -138,7 +138,7 @@ main{
     height: 450px;
 }
 
-.cartao-pokemon .cartao-informacoes{
+.cartao-pokemon .cartao-informacoes {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -152,12 +152,12 @@ main{
     max-width: 100%;
 }
 
-h3{
+h3 {
     font-size: 20px;
     text-align: center;
 }
 
-.btn{
+.btn {
     border: 1px solid #6b727a;
     background: #dadfe8;
     padding: 5px 10px;
@@ -173,14 +173,14 @@ h3{
     margin: 10px 0px 0px 65px;
 }
 
-.sair{
+.sair {
     margin: 0px 0px 50px 0px;
     align-items: center;
     justify-content: center;
     color: #6b727a;
 }
 
-.sair:hover{
+.sair:hover {
     color: #FFFFFF;
     background: #6b727a;
 }
@@ -189,70 +189,70 @@ h3{
     background-color: #e0585a;
 }
 
-.tipo-Eletric{
+.tipo-Eletric {
     background-color: #fcc719;
 }
 
-.tipo-Water{
+.tipo-Water {
     background-color: #76befe;
 }
 
-.tipo-Grass{
+.tipo-Grass {
     background-color: #49d0b0;
 }
 
-.tipo-Ghost{
+.tipo-Ghost {
     background-color: #7975D7;
 }
 
-.tipo-Dragon{
+.tipo-Dragon {
     background-color: #c29791;
 }
 
 .tipo-Normal {
     background-color: #d1d1c6;
 }
-  
+
 .tipo-Fighting {
     background-color: #703247;
 }
-  
+
 .tipo-Flying {
     background-color: #78A2FF;
 }
-  
+
 .tipo-Poison {
     background-color: #A95CA0;
 }
-  
+
 .tipo-Ground {
     background-color: #57ce40;
 }
-  
+
 .tipo-Rock {
     background-color: #c7a26a;
 }
-  
+
 .tipo-Bug {
     background-color: #c7da00f1;
 }
-  
+
 .tipo-Steel {
     background-color: #C4C2DB;
 }
-  
+
 .tipo-Psychic {
     background-color: #FA65B4;
 }
-  
+
 .tipo-Ice {
     background-color: #96F1FF;
 }
-  
+
 .tipo-Dark {
     background-color: #444343;
 }
-  
+
 .tipo-Fairy {
     background-color: #F9AEFF;
 }
@@ -276,22 +276,25 @@ h3{
 
     .cabeçalho {
         padding: 15px;
-    }
-    
-    .cabeçalho-imagem {
-        height: 35px;
-    }
-    
-    .cabeçalho-menu-item {
-        font-size: 15px;
+        height: 70px;
     }
 
-    .search-box:hover > .search-text {
+    .cabeçalho-imagem {
+        height: 35px;
+        margin-left: 5px;
+        margin-right: 13px;
+    }
+
+    .cabeçalho-menu-item {
+        font-size: 18px;
+    }
+
+    .search-box:hover>.search-text {
         width: 250px;
         padding-left: 20px;
     }
 
-    .search-box{
+    .search-box {
         margin-top: 50px;
     }
 
@@ -330,11 +333,11 @@ h3{
         max-width: 300px;
     }
 
-    .btn{
+    .btn {
         margin: 10px 0px 0px 65px;
     }
 
-    .sair{
+    .sair {
         margin: 0px 0px 50px 0px;
         align-items: center;
         justify-content: center;
@@ -362,7 +365,7 @@ h3{
     .rodape {
         padding: 15px;
     }
-    
+
     .rodape-imagem {
         height: 35px;
     }

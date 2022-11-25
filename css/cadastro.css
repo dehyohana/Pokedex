@@ -124,3 +124,43 @@ input {
     display: block;
     margin: 0 auto;
 }
+
+@media only screen and (max-width:600px) {
+    body {
+        font-size: 10px;
+    }
+
+    .cabeçalho {
+        padding: 15px;
+        height: 70px;
+    }
+
+    .cabeçalho-imagem {
+        height: 35px;
+        margin-left: 5px;
+        margin-right: 13px;
+    }
+
+    .cabeçalho-menu-item {
+        font-size: 18px;
+    }
+
+    .formulario {
+        width: 300px;
+        height: 400px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .btn-login {
+        width: 50%;
+    }
+
+    .rodape {
+        padding: 15px;
+    }
+
+    .rodape-imagem {
+        height: 35px;
+    }
+}

@@ -291,14 +291,17 @@ main {
 
     .cabeçalho {
         padding: 15px;
+        height: 70px;
     }
-    
+
     .cabeçalho-imagem {
         height: 35px;
+        margin-left: 5px;
+        margin-right: 13px;
     }
-    
+
     .cabeçalho-menu-item {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .search-box:hover>.search-text {
@@ -376,7 +379,7 @@ main {
     .rodape {
         padding: 15px;
     }
-    
+
     .rodape-imagem {
         height: 35px;
     }
