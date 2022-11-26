@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
         <img class="cabeçalho-imagem" src="imagens/pokeball.png" onclick="window.location='home.html';">
         <nav class="cabeçalho-menu">
             <a class="cabeçalho-menu-item" href="pokedex.html"> Pokédex </a>
-            <a class="cabeçalho-menu-item" href="cadastroPokemon.php"> Cadastrar pokémon </a>s
+            <a class="cabeçalho-menu-item" href="cadastroPokemon.php"> Cadastrar pokémon </a>
             <a class="cabeçalho-menu-item" href="https://www.pokemon.com/br/"> Comunidade pokémon</a>
         </nav>
     </header>
@@ -71,7 +71,6 @@ if(isset($_POST['submit'])){
                 <input type="text" class="form-control" name="tipoPokemon" id="tipoPokemon" placeholder="Tipo do Pokemon">
             </div>
             <br>
-            <!-- <button type="submit" class="btn-cadastro" name="submit">ENVIAR</button> -->
             <input type="submit" name="submit" id="submit">
         </form>
 
