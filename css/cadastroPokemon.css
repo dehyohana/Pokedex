@@ -51,11 +51,7 @@ h1 {
 
 a {
     cursor: pointer;
-}
-
-.sem-decoracao {
     text-decoration: none;
-    color: #fff2e7;
     font-size: 10px;
 }
 
@@ -190,9 +186,9 @@ input {
     }
 
     .cabeçalho-imagem {
-        height: 35px;
-        margin-left: 5px;
-        margin-right: 13px;
+        height: 30px;
+        margin-left: 2px;
+        margin-right: 15px;
     }
 
     .cabeçalho-menu-item {
