@@ -291,13 +291,12 @@ main {
 
     .cabeçalho {
         padding: 15px;
-        height: 70px;
+        height: 80px;
     }
 
     .cabeçalho-imagem {
         height: 35px;
-        margin-left: 5px;
-        margin-right: 13px;
+        margin-right: 15px;
     }
 
     .cabeçalho-menu-item {
