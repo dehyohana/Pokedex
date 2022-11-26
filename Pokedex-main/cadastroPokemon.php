@@ -1,7 +1,7 @@
 <?php
 
 
-if (isset($_POST['submit'])) {
+if(isset($_POST['submit'])){
     $nomePokemon = $_POST['nomePokemon'];
     $idPokemon = $_POST['idPokemon'];
     $pesoPokemon = $_POST['pesoPokemon'];
@@ -13,7 +13,6 @@ if (isset($_POST['submit'])) {
 }
 
 
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -22,7 +21,7 @@ if (isset($_POST['submit'])) {
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro de Pokemon</title>
+    <title>Cadastro</title>
     <link href="css/cadastroPokemon.css" rel="stylesheet">
     <link rel="shortcut icon" type="imagex/png" href="https://img.icons8.com/color/48/000000/psyduck.png">
 
@@ -36,7 +35,6 @@ if (isset($_POST['submit'])) {
         <img class="cabeçalho-imagem" src="imagens/pokeball.png" onclick="window.location='home.html';">
         <nav class="cabeçalho-menu">
             <a class="cabeçalho-menu-item" href="pokedex.html"> Pokédex </a>
-            <a class="cabeçalho-menu-item" href="cadastroPokemon.php"> Cadastrar pokémon </a>
             <a class="cabeçalho-menu-item" href="https://www.pokemon.com/br/"> Comunidade pokémon</a>
         </nav>
     </header>
@@ -71,6 +69,7 @@ if (isset($_POST['submit'])) {
                 <input type="text" class="form-control" name="tipoPokemon" id="tipoPokemon" placeholder="Tipo do Pokemon">
             </div>
             <br>
+            <!-- <button type="submit" class="btn-cadastro" name="submit">ENVIAR</button> -->
             <input type="submit" name="submit" id="submit">
         </form>
 
@@ -82,13 +81,14 @@ if (isset($_POST['submit'])) {
         <img class="rodape-imagem" src="imagens/pokeball.png">
     </footer>
 
-    <script src="js/cadastro.js"></script>
 </body>
+
 
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 
 </html>

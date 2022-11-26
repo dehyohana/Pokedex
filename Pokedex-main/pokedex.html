@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="shortcut icon" type="imagex/png" href="https://img.icons8.com/color/48/000000/psyduck.png">
+    <link rel="stylesheet" href="css/pokedex.css">
+</head>
+
+<body>
+
+    <script src="js/token.js"></script>
+
+    <!-- indica que o que está dentro dele faz parte do cabeçalho-->
+
+    <header class="cabeçalho">
+        <img class="cabeçalho-imagem" src="imagens/pokeball.png" onclick="window.location='index.html';">
+        <nav class="cabeçalho-menu">
+            <a class="cabeçalho-menu-item" href="pokedex.html"> Pokédex </a>
+            <a class="cabeçalho-menu-item" href="https://www.pokemon.com/br/"> Comunidade pokémon</a>
+        </nav>
+    </header>  
+
+    <!-- é a parte principal da pagina-->
+
+    <main>
+        <div class="pokedex">
+
+            <div class="cartoes-pokemon">
+                <div class="cartao-pokemon aberto " id="cartao-a">
+                    <a onclick="armazenaDadosPokemon(nomePokemonAParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonA"></h2>
+                                <span id="numeroPokemonA"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonA"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgA">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li id="alturaPokemonA"></li>
+                                <li id="pesoPokemonA"></li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li id="habilidadesPokemonA"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon " id="cartao-b">
+                    <a onclick="armazenaDadosPokemon(nomePokemonBParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonB"></h2>
+                                <span id="numeroPokemonB"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonB"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgB">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li Id="alturaPokemonB"></li>
+                                <li id="pesoPokemonB"></li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li id="habilidadesPokemonB"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon " id="cartao-c">
+                    <a onclick="armazenaDadosPokemon(nomePokemonCParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonC"></h2>
+                                <span id="numeroPokemonC"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonC"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgC">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li id="alturaPokemonC"></li>
+                                <li id="pesoPokemonC"></li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li id="habilidadesPokemonC"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon " id="cartao-d">
+                    <a onclick="armazenaDadosPokemon(nomePokemonDParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonD"></h2>
+                                <span id="numeroPokemonD"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonD"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgD">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li id="alturaPokemonD"></li>
+                                <li id="pesoPokemonD"></li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li id="habilidadesPokemonD"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon " id="cartao-e">
+                    <a onclick="armazenaDadosPokemon(nomePokemonEParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonE"></h2>
+                                <span id="numeroPokemonE"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonE"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgE">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li id="alturaPokemonE"></li>
+                                <li id="pesoPokemonE"></li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li id="habilidadesPokemonE"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon " id="cartao-f">
+                    <a onclick="armazenaDadosPokemon(nomePokemonFParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonF"></h2>
+                                <span id="numeroPokemonF"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonF"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgF">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li id="alturaPokemonF"></li>
+                                <li id="pesoPokemonF"></li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li id="habilidadesPokemonF"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="listagem">
+                <ul>
+                    <li class="pokemon ativo A" id="a">
+                        <img src="" alt="Imagem do icone pokemon" id="imgMiniaturaA">
+                        <span id="nomeMiniaturaA"></span>
+                    </li>
+                    <li class="pokemon B" id="b">
+                        <img src="" alt="Imagem do icone pokemon" id="imgMiniaturaB">
+                        <span id="nomeMiniaturaB"></span>
+                    </li>
+                    <li class="pokemon C" id="c">
+                        <img src="" alt="Imagem do icone pokemon" id="imgMiniaturaC">
+                        <span id="nomeMiniaturaC"></span>
+                    </li>
+                    <li class="pokemon D" id="d">
+                        <img src="" alt="Imagem do icone pokemon" id="imgMiniaturaD">
+                        <span id="nomeMiniaturaD"></span>
+                    </li>
+                    <li class="pokemon E" id="e">
+                        <img src="" alt="Imagem do icone pokemon" id="imgMiniaturaE">
+                        <span id="nomeMiniaturaE"></span>
+                    </li>
+                    <li class="pokemon F" id="f">
+                        <img src="" alt="Imagem do icone pokemon" id="imgMiniaturaF">
+                        <span id="nomeMiniaturaF"></span>
+                    </li>
+                </ul>
+                <button class="btn previous" id="voltar">Prev</button>
+                <button class="btn next" id="proximo">Next</button>
+            </nav>
+        </div>
+        <button class="btn sair" onclick="sair()">Sair</button>
+    </main>
+
+    <!-- é o rodapé da pagina -->
+
+    <footer class="rodape">
+        <img class="rodape-imagem" src="imagens/pokeball.png">
+    </footer>
+
+    <script src="js/pokedex.js"></script>
+</body>
+
+</html>
