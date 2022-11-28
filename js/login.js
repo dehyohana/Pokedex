@@ -1,3 +1,28 @@
+$(document).ready(function () {
+    $('form').validate({
+        rules: {
+            email: {
+                required: true,
+            },
+            senha: {
+                required: true
+            }
+        },
+        messages: {
+            email: {
+                required: "Este campo é obrigatório",
+                email: "Você precisa colocar um email valido"
+            },
+            senha: {
+                required: "Este campo é obrigatório"
+            }
+        },
+        submitHandler: function (form) {
+            loginUsuario()
+        }
+    })
+})
+
 function loginUsuario(){
     event.preventDefault()
     let url = "https://api-pokemon-login.herokuapp.com/api/login"
