@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+h1 {
+    display: flex;
+    margin-bottom: 30px;
+    color: #fff2e7;
+}
+
+a {
+    cursor: pointer;
+}
+
 label.error {
     color: white;
     font-size: 10px;
@@ -46,16 +56,6 @@ main {
     justify-content: center;
     align-items: center;
     font-family: 'Sarala', sans-serif;
-}
-
-h1 {
-    display: flex;
-    margin-bottom: 30px;
-    color: #fff2e7;
-}
-
-a {
-    cursor: pointer;
 }
 
 .sem-decoracao {
@@ -131,6 +131,8 @@ input {
     display: block;
     margin: 0 auto;
 }
+
+/*Responsivo*/
 
 @media only screen and (max-width:600px) {
     body {

@@ -11,6 +11,16 @@ label.error {
     font-size: 10px;
 }
 
+h1 {
+    display: flex;
+    margin-bottom: 30px;
+    color: #fff2e7;
+}
+
+a {
+    cursor: pointer;
+}
+
 .cabeçalho {
     display: flex;
     flex-direction: row;
@@ -46,16 +56,6 @@ main {
     justify-content: center;
     align-items: center;
     font-family: 'Sarala', sans-serif;
-}
-
-h1 {
-    display: flex;
-    margin-bottom: 30px;
-    color: #fff2e7;
-}
-
-a {
-    cursor: pointer;
 }
 
 .sem-decoracao {
@@ -131,6 +131,8 @@ input {
     display: block;
     margin: 0 auto;
 }
+
+/*Responsivo*/
 
 @media only screen and (max-width:600px) {
     body {

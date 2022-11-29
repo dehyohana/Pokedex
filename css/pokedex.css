@@ -7,6 +7,28 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Sarala', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DCDCDC;
+    flex-direction: column;
+}
+
 .cabeçalho {
     display: flex;
     flex-direction: row;
@@ -33,28 +55,6 @@
     font-size: 18px;
     text-decoration: none;
     margin: auto;
-}
-
-ul {
-    list-style-type: none;
-}
-
-body {
-    font-family: 'Sarala', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-main {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #DCDCDC;
-    flex-direction: column;
 }
 
 .pokedex {
@@ -284,6 +284,8 @@ main {
     display: block;
     margin: 0 auto;
 }
+
+/*Responsivo*/
 
 @media (max-width: 750px) {
     body {

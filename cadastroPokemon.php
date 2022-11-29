@@ -1,6 +1,4 @@
 <?php
-
-
 if (isset($_POST['submit'])) {
     $nomePokemon = $_POST['nomePokemon'];
     $idPokemon = $_POST['idPokemon'];
@@ -11,10 +9,8 @@ if (isset($_POST['submit'])) {
 
     echo "<script>console.log('Usuário enviou a seguinte indicação de pokemon, Nome:$nomePokemon, Id:$idPokemon, Peso:$pesoPokemon, Altura:$alturaPokemon, Habilidades:$habilidadesPokemon, Tipo:$tipoPokemon'); </script>";
 }
-
-
-
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -85,10 +81,10 @@ if (isset($_POST['submit'])) {
     <script src="js/cadastro.js"></script>
 </body>
 
-<!-- CSS only -->
+<!-- CSS Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-<!-- JavaScript Bundle with Popper -->
+<!-- JavaScript Bundle with Popper Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </html>

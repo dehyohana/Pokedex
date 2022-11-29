@@ -1,3 +1,4 @@
+//UTILIZANDO JQUERY
 $(document).ready(function () {
     $('form').validate({
         rules: {
