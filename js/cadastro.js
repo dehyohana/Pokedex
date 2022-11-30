@@ -52,7 +52,7 @@ function cadastrarUsuarioNoBanco() {
 
     request.onload = function () {
         if (this.response == "true") {
-            window.location.href = '/login.html'
+            window.location.href = 'login.html'
         } else {
             alert("Usuário já cadastrado!")
         }

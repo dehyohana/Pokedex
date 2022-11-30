@@ -44,7 +44,7 @@ function loginUsuario(){
         if(this.response == "true"){
             let token = Math.random().toString(16).substring(2)
             sessionStorage.setItem('token',token)
-            window.location.href = '/pokedex.html'
+            window.location.href = 'pokedex.html'
         }else{
             alert("Usuário ou senha incorreto!")
         }
