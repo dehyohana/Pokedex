@@ -1,0 +1,46 @@
+package com.pokedex.fmupokedex.model;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="pokemon")
+public class Pokemon {
+	@Id
+	@Column(name="id", nullable = false)
+	private Integer id;
+	
+	@Column(name="pokemon", length = 10)
+	private String pokemon_name;
+	
+	@Column(name="type_1", length = 10)
+	private String type1;
+	
+	@Column(name="type_2", length = 10)
+	private String type2;
+	
+	@Column(name="height_m")
+	private Double height;
+	
+	@Column(name="weight_kg")
+	private Double weight;
+	
+	@Column(name="descrip", length = 200)
+	private String description;
+	
+	@Column(name="abilities", length = 10)
+	private String abilitie;
+	
+	@Column(name="img_url", length = 200)
+	private String img_url;
+	
+	
+
+
+	
+	
+	
+
+}

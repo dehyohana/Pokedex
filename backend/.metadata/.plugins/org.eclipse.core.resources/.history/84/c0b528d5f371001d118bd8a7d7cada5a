@@ -1,0 +1,5 @@
+package com.pokedex.fmupokedex.service;
+
+public class PokemonService {
+
+}

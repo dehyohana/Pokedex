@@ -1,0 +1,5 @@
+package com.pokedex.fmupokedex.controller;
+
+public class PokemonController {
+
+}
